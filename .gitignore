@@ -1,0 +1,11 @@
+# Fichiers et dossiers généraux à ignorer
+*~
+*.log
+.DS_Store
+
+# Dossiers spécifiques au stockage rootless de Podman
+# Ceci est CRITIQUE et doit ignorer TOUT le stockage interne de Podman
+**/.local/
+
+# Dossiers de logs et de volumes (au cas où ils sont dans le chemin courant)
+logs/
